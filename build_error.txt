@@ -1,0 +1,31 @@
+Build started 27/03/2026 15:22:52.
+     1>Project "D:\PROJEK CODE\KREDIT SIMULATOR\CreditSimulator.csproj" on node 1 (Restore target(s)).
+     1>_GetAllRestoreProjectPathItems:
+         Determining projects to restore...
+       Restore:
+         X.509 certificate chain validation will use the default trust store selected by .NET for code signing.
+         X.509 certificate chain validation will use the default trust store selected by .NET for timestamping.
+         Assets file has not changed. Skipping assets file writing. Path: D:\PROJEK CODE\KREDIT SIMULATOR\obj\project.assets.json
+         Restored D:\PROJEK CODE\KREDIT SIMULATOR\CreditSimulator.csproj (in 29 ms).
+         
+         NuGet Config files used:
+             C:\Users\Aspire C22\AppData\Roaming\NuGet\NuGet.Config
+         
+         Feeds used:
+             https://api.nuget.org/v3/index.json
+         All projects are up-to-date for restore.
+     1>Done Building Project "D:\PROJEK CODE\KREDIT SIMULATOR\CreditSimulator.csproj" (Restore target(s)).
+   1:7>Project "D:\PROJEK CODE\KREDIT SIMULATOR\CreditSimulator.csproj" on node 1 (default targets).
+     1>C:\Users\Aspire C22\.nuget\packages\microsoft.windowsappsdk\1.5.240311000\buildTransitive\Microsoft.WindowsAppSDK.SelfContained.targets(36,9): error : The platform 'AnyCPU' is not supported for Self Contained mode. [D:\PROJEK CODE\KREDIT SIMULATOR\CreditSimulator.csproj]
+     1>Done Building Project "D:\PROJEK CODE\KREDIT SIMULATOR\CreditSimulator.csproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+       "D:\PROJEK CODE\KREDIT SIMULATOR\CreditSimulator.csproj" (default target) (1:7) ->
+       (WindowsAppSDKSelfContainedVerifyConfiguration target) -> 
+         C:\Users\Aspire C22\.nuget\packages\microsoft.windowsappsdk\1.5.240311000\buildTransitive\Microsoft.WindowsAppSDK.SelfContained.targets(36,9): error : The platform 'AnyCPU' is not supported for Self Contained mode. [D:\PROJEK CODE\KREDIT SIMULATOR\CreditSimulator.csproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.63
