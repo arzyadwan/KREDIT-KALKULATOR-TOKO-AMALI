@@ -1,0 +1,41 @@
+# Visual Studio / .NET Core Gitignore
+[Bb]in/
+[Oo]bj/
+[Tt]est[Rr]esults/
+[Dd]ebug/
+[Rr]elease/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# Build results
+[Aa]rm/
+[Aa]rm64/
+[Xx]64/
+[Xx]86/
+
+# Compiled XAML/BAML files
+*.g.cs
+*.g.i.cs
+*.g.cpp
+*.g.hpp
+
+# SQLite
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+
+# Backup files
+*.bak
+
+# Windows-specific
+Thumbs.db
+desktop.ini
